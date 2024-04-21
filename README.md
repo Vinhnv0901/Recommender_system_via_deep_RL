@@ -28,29 +28,6 @@ unzip ./ml-1m.zip
   - precision@5 : 0.479, ndcg@5 : 0.471
   - precision@10 : 0.444, ndcg@10 : 0.429
 
-# Usage
-
-### Training
-
-- The saved model of actor and critic are generated after the training is done.
-
-```
-python train.py
-```
-
-### Evalutation
-
-- Make sure there exist the saved models in the right directory
-- Run jupyter notebook and check "evaluation.ipynb"
-
-# requirements
-
-```
-tensorflow==2.5.0
-scikit-learn==0.23.2
-matplotlib==3.3.3
-```
-
 # reference
 
 https://github.com/LeejwUniverse/RL_Rainbow_Pytorch
